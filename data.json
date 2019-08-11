@@ -1,0 +1,70 @@
+[
+    {
+        "id": 1,
+        "nombre": "Toyota 4Runner",
+        "descripcion":"Un buen vehiculo para tus actividades del dia a dia.",
+        "imagenes": [
+            {
+                "caption":" imagen delantera",
+                "url":"/assets/cars/1/1.jpg"
+            }
+        ],
+        "motor":[
+            {
+                "tipo":"Gasoil",
+                "marchas":"5",
+                "transmision":"automatica",
+                "arranque":"electrico"
+            }
+        ],
+        "fabricante":[
+            {
+                "pais": "Japon",
+                "fabricante": "Toyota"
+            }
+        ],
+        "cilindrada": "4.0",
+        "tamanio":[
+            {
+                "anchura":"5",
+                "altura":"4",
+                "profundidad":"3"
+            }
+        ],
+        "peso":"125 KG"        
+    },
+    {
+        "id": 2,
+        "nombre": "Honda Civic",
+        "descripcion":"un carro a tu estilo.",
+        "imagenes": [
+            {
+                "caption":"imagen principal",
+                "url":"/assets/cars/2/1.jpg"
+            }
+        ],
+        "motor":[
+            {
+                "tipo":"Gasoil",
+                "marchas":"5",
+                "transmision":"automatica",
+                "arranque":"electrico"
+            }
+        ],
+        "fabricante":[
+            {
+                "pais": "Japon",
+                "fabricante": "Toyota"
+            }
+        ],
+        "cilindrada": "4.0",
+        "tamanio":[
+            {
+                "anchura":"5",
+                "altura":"4",
+                "profundidad":"3"
+            }
+        ],
+        "peso":"125 KG"        
+    }
+]

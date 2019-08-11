@@ -1,0 +1,12 @@
+<div class="col-12">
+    <div class="row" ng-controller="listarDetalleCarro">
+        <div class="card col-3" ng-repeat="car in cars" >
+            <img src="{{car.imagenes[0].url}}" class="card-img-top" alt="{{car.imagenes[0].caption}}">
+            <div class="card-body">
+                <h5 class="card-title">{{car.nombre}}</h5>
+                <p class="card-text">{{car.descripcion}}</p>
+                <a href="#/detalle/{{car.id}}" class="btn btn-primary">Más info...</a>
+            </div>
+        </div>
+    </div>
+</div>
