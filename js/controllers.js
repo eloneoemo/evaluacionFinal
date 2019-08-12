@@ -4,8 +4,8 @@ appCarros.controller("listarDetalleCarro",['$scope','Car',
         $scope.orderProp = 'id';
 }]);
 
-appCarros.controller("controllerDetalleCarro", ['$scope','$routeParams', 
-function($scope, $routeParams){
+appCarros.controller("controllerDetalleCarro", ['$scope','CarD','$routeParams', 
+function($scope, CarD ,$routeParams){
     $scope.carId = $routeParams.carId;
 }]);
 

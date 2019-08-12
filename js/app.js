@@ -15,7 +15,7 @@ appCarros.config(function($routeProvider){
     .otherwise({ reditrectTo : "/" });
 
     
-}).directive('detalle',function(){
+})/*.directive('detalle',function(){
     return{
         restric : 'A',
         scope:{
@@ -39,4 +39,4 @@ appCarros.config(function($routeProvider){
             $scope.getCar($scope.mostrarDetalle.id)
         }
     }
-})
+})*/;
