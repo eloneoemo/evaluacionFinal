@@ -1,7 +1,7 @@
 <div class="col-12">
     <div class="row" ng-controller="listarDetalleCarro">
-        <div class="card col-3" ng-repeat="car in cars" >
-            <img src="{{car.imagenes[0].url}}" class="card-img-top" alt="{{car.imagenes[0].caption}}">
+        <div class="card col-3" ng-repeat="car in cars | filter:query" >
+            <img src="{{car.imagenes[0].url}}" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">{{car.nombre}}</h5>
                 <p class="card-text">{{car.descripcion}}</p>
@@ -9,4 +9,21 @@
             </div>
         </div>
     </div>
+</div>
+<div class="col-sm-3 blog-sidebar">
+<!--Sidebar content-->
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Filtro</label>
+            <div class="col-sm-5">
+                <input type="text" class="form-control" ng-model="query">
+            </div>
+            <label for="inputPassword3" class="col-sm-2 control-label">Organizar por:</label>
+            <div class="col-sm-5">
+                <select class="form-control" ng-model="orderProp">
+                    <option value="id">Alfabeticamente</option>
+                </select>
+            </div>
+        </div>
+    </form>
 </div>

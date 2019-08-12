@@ -1,11 +1,11 @@
 appCarros.controller("listarDetalleCarro",['$scope','Car',
     function($scope, Car){
         $scope.cars = Car.query();
-        $scope.orderProp = 'nombre';
+        $scope.orderProp = 'id';
 }]);
 
-appCarros.controller("controllerDetalleCarro", function controllerDetalleCarro ($scope, $rootScope, $location){
-    $scope.verListas = function(){
-        $location.url("/detalle");
-    }
-});
+appCarros.controller("controllerDetalleCarro", ['$scope','$routeParams', 
+function($scope, $routeParams){
+    $scope.carId = $routeParams.carId;
+}]);
+
