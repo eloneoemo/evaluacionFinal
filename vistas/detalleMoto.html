@@ -1,0 +1,40 @@
+<div>
+<div class="card" ng-controller="detalleMotoController">
+    <div class="card-header"><b>ID:</b> {{moto.id}}</div>
+    <div class="col-12">
+        <img src="{{moto.imagenes[0]}}" alt="" class="img-fluid col-lg-3 col-sm-12">
+        <img src="{{moto.imagenes[1]}}" alt="" class="img-fluid col-lg-3 col-sm-12">
+        <img src="{{moto.imagenes[2]}}" alt="" class="img-fluid col-lg-3 col-sm-12">
+        <img src="{{moto.imagenes[3]}}" alt="" class="img-fluid col-lg-3 col-sm-12">
+        <img src="{{moto.imagenes[4]}}" alt="" class="img-fluid col-lg-3 col-sm-12">
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{moto.nombre}}</h5>
+        <p class="card-text">{{moto.slogan}}</p>
+        <table class="table">
+            <caption>Motor</caption> 
+            <thead>                                                      
+                <tr class="bg-primary"">
+                <th scope="col">Tipo de Motor</th>
+                <th scope="col">Marchas</th>
+                <th scope="col">Tipo de Transmisión</th>
+                <th scope="col">Arranque</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">{{moto.motor.tipo}}</th>
+                <td>{{moto.motor.marchas}}</td>
+                <td>{{moto.motor.transmision}}</td>
+                <td>{{moto.motor.arranque}}</td>
+                </tr>
+            </tbody>
+            </table>
+        <p class="card-text"><b>Fabricante: </b>{{moto.fabricante.nombre}} - {{moto.fabricante.ciudad}}</p>
+        <p class="card-text"><b>Cilindrada: </b>{{moto.cilindrada}}</p>
+        <p class="card-text"><b>Tamaño: </b><br>{{moto.tamanio.dimensiones[0]}}<br>{{moto.tamanio.dimensiones[1]}}<br>{{moto.tamanio.dimensiones[0]}}</p>
+        <p class="card-text"><b>Peso: </b>{{moto.tamanio.peso}}</p>     
+        <a href="/" class="btn btn-primary">Volver al inicio</a>
+    </div>
+</div> 
+</div>

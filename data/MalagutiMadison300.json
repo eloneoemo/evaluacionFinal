@@ -1,0 +1,31 @@
+{
+    "fabricante": {
+        "nombre": "Malaguti", 
+        "ciudad": "Italia"
+    }, 
+    "motor": {
+        "marchas": "4", 
+        "transmision": "Manual", 
+        "tipo": "Gasolina",
+        "arranque": "Eléctrico"
+    }, 
+    "slogan": "El Malaguti Madison 300 es un scooter 300 que se puede conducir con el carnet A2 y que destaca por sus prestaciones, su estilo estético y su relación calidad-precio.", 
+    "id": "MalagutiMadison300", 
+    "imagenes": [
+        "assets/motos/MalagutiMadison300/1.jpg",
+        "assets/motos/MalagutiMadison300/2.jpg",
+        "assets/motos/MalagutiMadison300/3.jpg",
+        "assets/motos/MalagutiMadison300/4.jpg",
+        "assets/motos/MalagutiMadison300/5.jpg"
+    ], 
+    "nombre": "Malaguti Madison 300", 
+    "cilindrada": "278 cc", 
+    "tamanio": {
+        "dimensiones": [
+            "790 mm (w)", 
+            "1395 mm (h)", 
+            "2135mm (l)"
+        ], 
+        "peso": "173 kg"
+    }
+}

@@ -1,15 +1,15 @@
-var carAppServices = angular.module('carAppServices', ['ngResource']);
+'use strict';
 
-carAppServices.factory('Car',['$resource',
-    function($resource){
-        return $resource('data/data.json',{},{
-            query: {method: 'GET', params:{carId:'cars'},isArray:true}
-        });
-}]);
+var appMotoServices = angular.module('appMotoServices',['ngResource']);
 
-carAppServices.factory('CarD',['$resource',
+appMotoServices.factory('Moto',['$resource',
     function($resource){
-        return $resource('data/data.json',{},{
-            query: {method: 'GET', params:{id:'carId'},isArray:true}
+        return $resource('data/:motoId.json',{},{
+            query: {method: 'GET',
+                params:{
+                    motoId: 'data'
+                },
+            isArray : true
+            }
         });
 }]);

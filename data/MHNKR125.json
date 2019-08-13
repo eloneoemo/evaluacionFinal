@@ -1,0 +1,31 @@
+{
+    "fabricante": {
+        "nombre": "Motor Hispania", 
+        "ciudad": "España"
+    }, 
+    "motor": {
+        "marchas": "4", 
+        "transmision": "Manual", 
+        "tipo": "Gasolina",
+        "arranque": "Eléctrico"
+    }, 
+    "slogan": "La MH NKR 125 es una de las motos 125 naked que más sorprenden por su relación calidad-precio, su estética y su autonomía. ¡Toma nota!",  
+    "id": "MHNKR125", 
+    "imagenes": [
+        "assets/motos/MHNKR125/1.jpg",
+        "assets/motos/MHNKR125/2.jpg",
+        "assets/motos/MHNKR125/3.jpg",
+        "assets/motos/MHNKR125/4.jpg",
+        "assets/motos/MHNKR125/5.jpg"
+    ], 
+    "nombre": "MH NKR 125", 
+    "cilindrada": "125 cc", 
+    "tamanio": {
+        "dimensiones": [
+            "766 mm (w)", 
+            "1081 mm (h)", 
+            "1928 mm (l)"
+        ], 
+        "peso": "118 kg"
+    }
+}

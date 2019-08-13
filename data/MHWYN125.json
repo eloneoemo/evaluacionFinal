@@ -1,0 +1,31 @@
+{
+    "fabricante": {
+        "nombre": "Motor Hispania", 
+        "ciudad": "España"
+    }, 
+    "motor": {
+        "marchas": "4", 
+        "transmision": "Manual", 
+        "tipo": "Gasolina",
+        "arranque": "Eléctrico"
+    }, 
+    "slogan": "La MH WYN 125 es una moto 125 muy particular, ya que es una naked con tintes de moto off-road, una mezcla que la hace muy original.", 
+    "id": "MHWYN125", 
+    "imagenes": [
+        "assets/motos/MHWYN125/1.jpg",
+        "assets/motos/MHWYN125/2.jpg",
+        "assets/motos/MHWYN125/3.jpg",
+        "assets/motos/MHWYN125/4.jpg",
+        "assets/motos/MHWYN125/5.jpg"
+    ], 
+    "nombre": "MH WYN 125", 
+    "cilindrada": "125 cc", 
+    "tamanio": {
+        "dimensiones": [
+            "766 mm (w)", 
+            "1098 mm (h)", 
+            "1980 mm (l)"
+        ], 
+        "peso": "130 kg"
+    }
+}

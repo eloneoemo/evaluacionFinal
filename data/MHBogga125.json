@@ -1,0 +1,31 @@
+{
+    "fabricante": {
+        "nombre": "Motor Hispania", 
+        "ciudad": "España"
+    }, 
+    "motor": {
+        "marchas": "4", 
+        "transmision": "Manual", 
+        "tipo": "Gasolina",
+        "arranque": "Eléctrico"
+    }, 
+    "slogan": "La MH Bogga 125 es una espectacular propuesta de la marca española en el segmento de motos 125 para el carnet de coche con un estilazo cafe-racer.", 
+    "id": "MHBogga125", 
+    "imagenes": [
+        "assets/motos/MHBogga125/1.jpg",
+        "assets/motos/MHBogga125/2.jpg",
+        "assets/motos/MHBogga125/3.jpg",
+        "assets/motos/MHBogga125/4.jpg",
+        "assets/motos/MHBogga125/5.jpg"
+    ], 
+    "nombre": "MH Bogga 125", 
+    "cilindrada": "125 cc", 
+    "tamanio": {
+        "dimensiones": [
+            "750 mm (w)", 
+            "1040 mm (h)", 
+            "2050 mm (l)"
+        ], 
+        "peso": "130 kg"
+    }
+}

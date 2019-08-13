@@ -1,0 +1,31 @@
+{
+    "fabricante": {
+        "nombre": "Motor Hispania", 
+        "ciudad": "España"
+    }, 
+    "motor": {
+        "marchas": "4", 
+        "transmision": "Manual", 
+        "tipo": "Gasolina",
+        "arranque": "Eléctrico"
+    }, 
+    "slogan": "La MH Revenge 125 es una aportación al segmento naked de motos 125 con un interesante y atractivo toque retro. Además es una opción con una relación calidad-precio espectacular.", 
+    "id": "MHRevenge125", 
+    "imagenes": [
+        "assets/motos/MHRevenge125/1.jpg",
+        "assets/motos/MHRevenge125/2.jpg",
+        "assets/motos/MHRevenge125/3.jpg",
+        "assets/motos/MHRevenge125/4.jpg",
+        "assets/motos/MHRevenge125/5.jpg"
+    ], 
+    "nombre": "MH Revenge 125", 
+    "cilindrada": "125 cc", 
+    "tamanio": {
+        "dimensiones": [
+            "756 mm (w)", 
+            "1082 mm (h)", 
+            "1963 mm (l)"
+        ], 
+        "peso": "118 kg"
+    }
+}

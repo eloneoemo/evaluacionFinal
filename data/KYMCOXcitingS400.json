@@ -1,0 +1,31 @@
+{
+    "fabricante": {
+        "nombre": "KYMCO", 
+        "ciudad": "Taiwán"
+    }, 
+    "motor": {
+        "marchas": "4", 
+        "transmision": "Manual", 
+        "tipo": "Gasolina",
+        "arranque": "Eléctrico"
+    }, 
+    "slogan": "El KYMCO Xciting S 400 es la nueva evolución del scooter 400 de la marca que destaca por sus prestaciones, su comodidad y su innovador sistema Noodoe Navigation de serie.", 
+    "id": "KYMCOXcitingS400", 
+    "imagenes": [
+        "assets/motos/KYMCOXcitingS400/1.jpg",
+        "assets/motos/KYMCOXcitingS400/2.jpg",
+        "assets/motos/KYMCOXcitingS400/3.jpg",
+        "assets/motos/KYMCOXcitingS400/4.jpg",
+        "assets/motos/KYMCOXcitingS400/5.jpg"
+    ], 
+    "nombre": "KYMCO Xciting S 4000", 
+    "cilindrada": "278 cc", 
+    "tamanio": {
+        "dimensiones": [
+            "799 mm (w)", 
+            "1389 mm (h)", 
+            "2190mm (l)"
+        ], 
+        "peso": "213 kg"
+    }
+}

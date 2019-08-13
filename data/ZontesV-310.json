@@ -1,0 +1,31 @@
+{
+    "fabricante": {
+        "nombre": "Motor Hispania", 
+        "ciudad": "España"
+    }, 
+    "motor": {
+        "marchas": "4", 
+        "transmision": "Manual", 
+        "tipo": "Diesel",
+        "arranque": "Eléctrico"
+    }, 
+    "slogan": "La Zontes V-310 es la propuesta de la marca china en el segmento de motos A2 para los que buscan una custom atractiva, moderna, manejable y con una relación calidad-precio espectacular.",  
+    "id": "ZontesV-310", 
+    "imagenes": [
+        "assets/motos/ZontesV-310/1.jpg",
+        "assets/motos/ZontesV-310/2.jpg",
+        "assets/motos/ZontesV-310/3.jpg",
+        "assets/motos/ZontesV-310/4.jpg",
+        "assets/motos/ZontesV-310/5.jpg"
+    ], 
+    "nombre": "Zontes V-310", 
+    "cilindrada": "125 cc", 
+    "tamanio": {
+        "dimensiones": [
+            "830 mm (w)", 
+            "830 mm (h)", 
+            "2050 mm (l)"
+        ], 
+        "peso": "130 kg"
+    }
+}

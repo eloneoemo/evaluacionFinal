@@ -1,104 +1,58 @@
 [
     {
-        "id": 3,
-        "nombre": "Toyota 4Runner",
-        "descripcion":"Un buen vehiculo para tus actividades del dia a dia.",
-        "imagenes": [
-            {
-                "caption":" imagen delantera",
-                "url":"/assets/cars/1/1.jpg"
-            }
-        ],
-        "motor":[
-            {
-                "tipo":"Gasoil",
-                "marchas":"5",
-                "transmision":"automatica",
-                "arranque":"electrico"
-            }
-        ],
-        "fabricante":[
-            {
-                "pais": "Japon",
-                "fabricante": "Toyota"
-            }
-        ],
-        "cilindrada": "4.0",
-        "tamanio":[
-            {
-                "anchura":"5",
-                "altura":"4",
-                "profundidad":"3"
-            }
-        ],
-        "peso":"125 KG"        
+        "id": "ZontesV-310",
+        "name": "Zontes V-310 2020",
+        "model": 2020, 
+        "imageUrl": "assets/motos/ZontesV-310/1.jpg", 
+        "slogan": "La Zontes V-310 es la propuesta de la marca china en el segmento de motos A2 para los que buscan una custom atractiva, moderna, manejable y con una relación calidad-precio espectacular."
     },
     {
-        "id": 2,
-        "nombre": "Honda Civic",
-        "descripcion":"un carro a tu estilo.",
-        "imagenes": [
-            {
-                "caption":"imagen principal",
-                "url":"/assets/cars/2/1.jpg"
-            }
-        ],
-        "motor":[
-            {
-                "tipo":"Gasoil",
-                "marchas":"5",
-                "transmision":"automatica",
-                "arranque":"electrico"
-            }
-        ],
-        "fabricante":[
-            {
-                "pais": "Japon",
-                "fabricante": "Toyota"
-            }
-        ],
-        "cilindrada": "4.0",
-        "tamanio":[
-            {
-                "anchura":"5",
-                "altura":"4",
-                "profundidad":"3"
-            }
-        ],
-        "peso":"125 KG"        
+        "id": "MHNKR125",
+        "name": "MH NKR 125",
+        "model": 2020, 
+        "imageUrl": "assets/motos/MHNKR125/1.jpg", 
+        "slogan": "La MH NKR 125 es una de las motos 125 naked que más sorprenden por su relación calidad-precio, su estética y su autonomía. ¡Toma nota!"
     },
     {
-        "id": 1,
-        "nombre": "Maria",
-        "descripcion":"un carro a tu estilo.",
-        "imagenes": [
-            {
-                "caption":"imagen principal",
-                "url":"/assets/cars/2/1.jpg"
-            }
-        ],
-        "motor":[
-            {
-                "tipo":"Gasoil",
-                "marchas":"5",
-                "transmision":"automatica",
-                "arranque":"electrico"
-            }
-        ],
-        "fabricante":[
-            {
-                "pais": "Japon",
-                "fabricante": "Toyota"
-            }
-        ],
-        "cilindrada": "4.0",
-        "tamanio":[
-            {
-                "anchura":"5",
-                "altura":"4",
-                "profundidad":"3"
-            }
-        ],
-        "peso":"125 KG"        
+        "id": "MHWYN125",
+        "name": "MH WYN 125",
+        "model": 2019, 
+        "imageUrl": "assets/motos/MHWYN125/1.jpg", 
+        "slogan": "La MH WYN 125 es una moto 125 muy particular, ya que es una naked con tintes de moto off-road, una mezcla que la hace muy original."
+    },
+    {
+        "id": "MHNKZ125",
+        "name": "MH NKZ 125",
+        "model": 2019, 
+        "imageUrl": "assets/motos/MHNKZ125/1.jpg", 
+        "slogan": "La MH NKZ 125 es una naked 125 equilibrada entre precio, calidad, prestaciones, estética y algunos componentes interesantes como la tecnología LED. ¡Descúbrela!"
+    },
+    {
+        "id": "MHRevenge125",
+        "name": "MH Revenge 12",
+        "model": 2019, 
+        "imageUrl": "assets/motos/MHRevenge125/1.jpg", 
+        "slogan": "La MH Revenge 125 es una aportación al segmento naked de motos 125 con un interesante y atractivo toque retro. Además es una opción con una relación calidad-precio espectacular."
+    },
+    {
+        "id": "MHBogga125",
+        "name": "MH Bogga 125",
+        "model": 2019, 
+        "imageUrl": "assets/motos/MHBogga125/1.jpg", 
+        "slogan": "La MH Bogga 125 es una espectacular propuesta de la marca española en el segmento de motos 125 para el carnet de coche con un estilazo cafe-racer."
+    },
+    {
+        "id": "MalagutiMadison300",
+        "name": "Malaguti Madison 300",
+        "model": 2019, 
+        "imageUrl": "assets/motos/MalagutiMadison300/1.jpg", 
+        "slogan": "El Malaguti Madison 300 es un scooter 300 que se puede conducir con el carnet A2 y que destaca por sus prestaciones, su estilo estético y su relación calidad-precio."
+    },
+    {
+        "id": "KYMCOXcitingS400",
+        "name": "KYMCO Xciting S 400",
+        "model": 2020, 
+        "imageUrl": "assets/motos/KYMCOXcitingS400/1.jpg", 
+        "slogan": "El KYMCO Xciting S 400 es la nueva evolución del scooter 400 de la marca que destaca por sus prestaciones, su comodidad y su innovador sistema Noodoe Navigation de serie."
     }
 ]

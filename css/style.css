@@ -1,0 +1,51 @@
+.animacion1.ng-enter, 
+.animacion2.ng-enter{
+    -webkit-animation: escalar 0.5s both ease-in;
+    -moz-animation: escalar 0.5s both ease-in;
+    animation: escalar 0.5s both ease-in;
+}
+.animacion1.ng-leave, 
+.animacion2.ng-leave{
+    -webkit-animation: reducir 0.5s both ease-in;
+    -moz-animation: reducir 0.5s both ease-in;
+    animation: reducir 0.5s both ease-in;
+}
+  
+
+@keyframes escalar {
+    from {
+        opacity: 0.5;
+        transform: scale(0.7);
+    }
+}
+@-moz-keyframes escalar {
+    from {
+        opacity: 0.5;
+        -moz-transform: scale(0.7);
+    }
+}
+@-webkit-keyframes escalar {
+    from {
+        opacity: 0.5;
+        -webkit-transform: scale(0.7);
+    }
+}
+
+@keyframes reducir {
+    to {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+}
+@-moz-keyframes reducir {
+    to {
+        opacity: 0;
+        -moz-transform: scale(0.7);
+    }
+}
+@-webkit-keyframes reducir {
+    to {
+        opacity: 0;
+        -webkit-transform: scale(0.7);
+    }
+}

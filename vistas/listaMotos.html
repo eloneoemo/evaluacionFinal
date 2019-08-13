@@ -1,0 +1,27 @@
+<div class="col-12 blog-sidebar">
+<!--Sidebar content-->
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">Organizar por:</label>
+            <div class="col-sm-5">
+                <select class="form-control" ng-model="orderProp">
+                    <option value="name">Alphabetical</option>
+                    <option value="model">Newest</option>
+                </select>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="col-12">
+    <div class="row" ng-controller="appListController">
+        <div class="card col-lg-3 col-sm-4 mt-2" ng-repeat="moto in motos | orderBy:orderProp">
+            <img src="{{moto.imageUrl}}" class="card-img-top mt-1">
+            <div class="card-body">
+                <h5 class="card-title">{{moto.name}}</h5>
+                <p class="card-text"><b>Año:</b> {{moto.model}}</p>
+                <a href="#/detalle/{{moto.id}}" class="btn btn-primary">Más info...</a>
+            </div>
+        </div>
+    </div>
+</div>

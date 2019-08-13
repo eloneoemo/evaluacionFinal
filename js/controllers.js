@@ -1,11 +1,22 @@
-appCarros.controller("listarDetalleCarro",['$scope','Car',
-    function($scope, Car){
-        $scope.cars = Car.query();
-        $scope.orderProp = 'id';
+'use strict';
+
+var appMotoControllers = angular.module ('appMotoControllers',[]);
+
+appMotoControllers.controller('appListController',['$scope','Moto',
+    function($scope, Moto){
+        $scope.motos = Moto.query();
+        $scope.orderProp = 'model';
+        $scope.classPage = 'animacion1  ';
+
 }]);
 
-appCarros.controller("controllerDetalleCarro", ['$scope','CarD','$routeParams', 
-function($scope, CarD ,$routeParams){
-    $scope.carId = $routeParams.carId;
-}]);
+appMotoControllers.controller('detalleMotoController', ['$scope', '$routeParams', 'Moto',
+  function($scope, $routeParams, Moto){
+    $scope.classPage = 'animacion2';
+    $scope.moto = Moto.get({motoId: $routeParams.motoId}, function(moto){
+    });
+    $scope.setImage = function(mainImageUrl){
+      $scope.mainImageUrl = mainImageUrl;
+    }
 
+}]);
