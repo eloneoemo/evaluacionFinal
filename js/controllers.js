@@ -5,7 +5,7 @@ var appMotoControllers = angular.module ('appMotoControllers',[]);
 appMotoControllers.controller('appListController',['$scope','Moto',
     function($scope, Moto){
         $scope.motos = Moto.query();
-        $scope.orderProp = 'model';
+        $scope.orderProp = 'name';
         $scope.classPage = 'animacion1  ';
 
 }]);
